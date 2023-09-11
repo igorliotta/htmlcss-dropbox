@@ -39,7 +39,8 @@ a {
 .debug .col-12,
 .debug .col-8,
 .debug .col-4,
-.debug .col-4-t {
+.debug .col-4-t,
+.debug .col-12-t {
     border: 1px solid blue;
 }
 
@@ -212,10 +213,11 @@ a {
 
 .business-plans-title {
     margin-top: 20px;
+    font-size: 38px;
 }
 
 .checkbox-container {
-    margin: 20px 0px;
+    margin: 15px 0px;
 }
 
 .cards-container {
@@ -238,4 +240,17 @@ a {
     min-height: 200px;
     flex-basis: calc((100% / 12) * 3);
     margin-bottom: 20px;
+}
+
+.col-12-t {
+    min-height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.type-of-plane-name {
+    opacity: 0.6;
 }
