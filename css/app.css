@@ -30,14 +30,16 @@ a {
 }
 
 .debug .row,
-.debug .row-hero {
+.debug .row-hero,
+.debug .row-cards {
     border: 1px solid red;
 }
 
 .debug .col,
 .debug .col-12,
 .debug .col-8,
-.debug .col-4 {
+.debug .col-4,
+.debug .col-4-t {
     border: 1px solid blue;
 }
 
@@ -53,11 +55,15 @@ a {
     border: 1px solid royalblue;
 }
 
+.debug .cards-container {
+    border: 1px solid salmon;
+}
+
+
 
 /* Header */
 
 .container {
-    width: 100%;
     min-height: 30px;
     padding: 2px;
 }
@@ -212,3 +218,24 @@ a {
     margin: 20px 0px;
 }
 
+.cards-container {
+    max-width: 100%;
+    min-height: 100px;
+    padding: 2px;
+}
+
+.row-cards {
+    max-width: 100%;
+    min-height: 100px;
+    padding: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-4-t {
+    padding: 2px;
+    min-height: 200px;
+    flex-basis: calc((100% / 12) * 3);
+    margin-bottom: 20px;
+}
