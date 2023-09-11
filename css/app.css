@@ -14,6 +14,7 @@ ul, ol, menu {
 
 a {
     color: currentColor;
+    text-decoration: none;
 }
 
 
@@ -51,10 +52,41 @@ a {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .col {
     display: inline-block;
-    width: calc(100% / 4);
+    flex-basis: calc((100% / 4));
+}
+
+.logo {
+    width: 110px;
+    min-height: 25px;
+    display: inline-block;
+    padding: 2px;
+}
+
+.navbar-items-left > li,
+.navbar-items-right >li {
+    display: inline-block;
+    font-size: 12px;
+    padding: 6px;
+    vertical-align: middle;
+}
+
+.navbar-items-right {
+    line-height: 30px;
+}
+
+.bg-blue {
+    color: white;
+    background-color: #0061ff;
+    padding: 5px 10px;
+} 
+
+.row-right {
+    display: flex;
+    justify-content: flex-end;
 }
