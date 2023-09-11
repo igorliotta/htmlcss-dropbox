@@ -5,11 +5,7 @@
 }
 
 html {
-    font-family: 'DM Sans', sans-serif;
-    font-family: 'Fredoka', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Outfit', sans-serif;
-    font-family: 'Roboto', sans-serif;
 }
 
 img {
@@ -47,6 +43,14 @@ a {
 
 .debug .container-hero {
     border: 1px solid brown;
+}
+
+.debug .container-business-plans {
+    border: 1px solid violet;
+}
+
+.debug .business-plans-first-part {
+    border: 1px solid royalblue;
 }
 
 
@@ -111,10 +115,10 @@ a {
 /* Hero */
 
 .hero {
-    width: 100%;
     min-height: 300px;
     padding: 2px;
     background-color: #b4d0e7;
+    margin-bottom: 20px;
 }
 
 .row-hero {
@@ -134,7 +138,6 @@ a {
 }
 
 .col-12 {
-    width: 100%;
     min-height: 60px;
     display: flex;
     justify-content: center;
@@ -154,8 +157,9 @@ a {
 }
 
 .hero-title {
-    font-size: 44px;
-    font-weight: bold;
+    font-size: 68px;
+    font-weight: 800;
+    padding: 20px;
 }
 
 .text-hero-left {
@@ -171,3 +175,40 @@ a {
     margin-top: 40px;
     margin-bottom: 30px;
 }
+
+/* Business plans */
+
+.container-business-plans {
+    margin: 0 auto;
+    max-width: 1000px;
+    min-height: 300px;
+    padding: 2px;
+}
+
+.business-plans-first-part {
+    padding: 2px;
+}
+
+.business-plans-checkbox {
+    font-size: 11px;
+    padding-right: 10px;
+}
+
+.circle {
+    height: 10px;
+    color: white;
+    background-color: #0061ff;
+    padding: 1px 5px;
+    border-radius: 50%;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.business-plans-title {
+    margin-top: 20px;
+}
+
+.checkbox-container {
+    margin: 20px 0px;
+}
+
