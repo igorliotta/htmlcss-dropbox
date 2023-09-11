@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+ul, ol, menu {
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+}
+
+
+/* Debug */
+
+.debug .container {
+    border: 1px solid orange;
+}
+
+.debug .row {
+    border: 1px solid red;
+}
+
+.debug .col {
+    border: 1px solid blue;
+}
+
+
+
+
+
+/* Header */
+
+.container {
+    width: 100%;
+    min-height: 30px;
+    padding: 2px;
+}
+
+.row,
+.col {
+    min-height: 30px;
+    padding: 2px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    display: inline-block;
+    width: calc(100% / 4);
+}
