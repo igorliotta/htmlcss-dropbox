@@ -251,6 +251,21 @@ a {
     justify-content: center;
 }
 
-.type-of-plane-name {
+.type-of-plane-name,
+.month {
     opacity: 0.6;
+}
+
+.block-1-top {
+    margin-bottom: 50px;
+}
+
+.block-1-top-items,
+.block-1-botton-items {
+    font-size: 11px;
+    padding: 10px;
+}
+
+.use {
+    font-size: 20px;
 }
