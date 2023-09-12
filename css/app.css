@@ -26,7 +26,8 @@ a {
 
 .debug .container,
 .debug .hero,
-.debug .container-partner {
+.debug .container-partner,
+.debug .container-dropbox-operations {
     border: 1px solid orange;
 }
 
@@ -34,7 +35,9 @@ a {
 .debug .row-hero,
 .debug .row-cards,
 .debug .row-enterprice-2,
-.debug .row-partner {
+.debug .row-partner,
+.debug .row-dropbox-operations-title,
+.debug .row-dropbox-operations {
     border: 1px solid red;
 }
 
@@ -43,7 +46,9 @@ a {
 .debug .col-8,
 .debug .col-4,
 .debug .col-4-t,
-.debug .col-12-t {
+.debug .col-12-t,
+.debug .col-12-v,
+.debug .col-4-g {
     border: 1px solid blue;
 }
 
@@ -191,7 +196,8 @@ a {
 /* Business plans */
 
 .container-business-plans,
-.container-partner {
+.container-partner,
+.container-dropbox-operations {
     margin: 0 auto;
     max-width: 1000px;
     min-height: 300px;
@@ -215,7 +221,8 @@ a {
     vertical-align: middle;
 }
 
-.business-plans-title {
+.business-plans-title,
+.dropbox-operations-title {
     margin-top: 20px;
     font-size: 38px;
 }
@@ -362,5 +369,41 @@ a {
     border: 1px solid black;
 }
 
+/* Operations with Dropbox */
 
+.row-dropbox-operations-title {
+    display: flex;
+    justify-content: flex-start;
+}
 
+.col-12-v {
+    padding: 2px;
+}
+
+.dropbox-operations-title {
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.row-dropbox-operations {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100px;
+}
+
+.col-4-g {
+    flex-basis: calc(((100% / 12) * 4));
+    min-height: 50px;
+    padding: 20px;
+}
+
+.card-operation-title {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.card-operation-text {
+    opacity: 0.6;
+    padding: 10px;
+    margin-left: 10px;
+}
