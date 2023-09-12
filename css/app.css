@@ -27,7 +27,8 @@ a {
 .debug .container,
 .debug .hero,
 .debug .container-partner,
-.debug .container-dropbox-operations {
+.debug .container-dropbox-operations,
+.debug .container-statistics {
     border: 1px solid orange;
 }
 
@@ -37,7 +38,8 @@ a {
 .debug .row-enterprice-2,
 .debug .row-partner,
 .debug .row-dropbox-operations-title,
-.debug .row-dropbox-operations {
+.debug .row-dropbox-operations,
+.debug .row-statistics {
     border: 1px solid red;
 }
 
@@ -197,7 +199,8 @@ a {
 
 .container-business-plans,
 .container-partner,
-.container-dropbox-operations {
+.container-dropbox-operations,
+.container-statistics {
     margin: 0 auto;
     max-width: 1000px;
     min-height: 300px;
@@ -406,4 +409,23 @@ a {
     opacity: 0.6;
     padding: 10px;
     margin-left: 10px;
+}
+
+/* Info statistics Dropbox  */
+
+.row-statistics {
+    min-height: 30px;
+    padding: 2px;
+    display: flex;
+}
+
+.statistics-title {
+    margin-top: 20px;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+
+.discover-us {
+    text-decoration: underline;
+    color: #1800f1;
 }
