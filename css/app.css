@@ -64,6 +64,10 @@ a {
 
 /* Header */
 
+.page-header {
+    background-color: white;
+}
+
 .container {
     max-width: 100%;
     min-height: 30px;
@@ -176,8 +180,8 @@ a {
 }
 
 .cancel {
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 /* Business plans */
@@ -236,6 +240,7 @@ a {
     padding: 2px;
     min-height: 200px;
     flex-basis: calc((100% / 12) * 3);
+    flex-grow: 1;
     margin-bottom: 20px;
 }
 
