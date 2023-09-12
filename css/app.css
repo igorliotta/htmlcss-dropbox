@@ -25,14 +25,16 @@ a {
 /* Debug */
 
 .debug .container,
-.debug .hero {
+.debug .hero,
+.debug .container-partner {
     border: 1px solid orange;
 }
 
 .debug .row,
 .debug .row-hero,
 .debug .row-cards,
-.debug .row-enterprice-2 {
+.debug .row-enterprice-2,
+.debug .row-partner {
     border: 1px solid red;
 }
 
@@ -130,7 +132,8 @@ a {
     margin-bottom: 20px;
 }
 
-.row-hero {
+.row-hero,
+.row-partner {
     display: flex;
     padding: 2px;
 }
@@ -187,7 +190,8 @@ a {
 
 /* Business plans */
 
-.container-business-plans {
+.container-business-plans,
+.container-partner {
     margin: 0 auto;
     max-width: 1000px;
     min-height: 300px;
@@ -331,6 +335,31 @@ a {
     color: white;
     background-color: #0061ff;
     padding: 5px 10px;
+}
+
+/* Become a partner */
+
+.row-partner {
+    min-height: 100px;
+}
+
+.partner-text-title {
+    padding: 10px;
+}
+
+.partner-text,
+.partner-button  {
+    opacity: 0.6;
+    padding: 10px;
+}
+
+.partner-text {
+    margin-bottom: 20px;
+}
+
+.partner-button {
+    margin-left: 10px;
+    border: 1px solid black;
 }
 
 
