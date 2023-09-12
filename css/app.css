@@ -65,6 +65,7 @@ a {
 /* Header */
 
 .container {
+    max-width: 100%;
     min-height: 30px;
     padding: 2px;
 }
@@ -75,21 +76,17 @@ a {
     padding: 2px;
 }
 
-.row {
+.page-header .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-.col {
-    display: inline-block;
-    flex-basis: calc((100% / 4));
+    align-items: center;
 }
 
 .logo {
     width: 110px;
     min-height: 25px;
-    display: inline-block;
+    display: block;
     padding: 2px;
 }
 
