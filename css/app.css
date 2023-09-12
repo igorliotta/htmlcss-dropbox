@@ -31,7 +31,8 @@ a {
 
 .debug .row,
 .debug .row-hero,
-.debug .row-cards {
+.debug .row-cards,
+.debug .row-enterprice-2 {
     border: 1px solid red;
 }
 
@@ -198,7 +199,6 @@ a {
 }
 
 .business-plans-checkbox {
-    font-size: 11px;
     padding-right: 10px;
 }
 
@@ -209,7 +209,6 @@ a {
     padding: 1px 5px;
     border-radius: 50%;
     vertical-align: middle;
-    line-height: normal;
 }
 
 .business-plans-title {
@@ -258,6 +257,10 @@ a {
     opacity: 0.6;
 }
 
+.month-enterprise {
+    color: white;
+}
+
 .block-1-top,
 .block-1-bottom {
     margin-bottom: 50px;
@@ -300,4 +303,35 @@ a {
 .check {
     color: #1800f1;
 }
+
+.contact-us {
+    color: white;
+    background-color: #0061ff;
+    padding: 5px 70px;
+    margin-left: 10px;
+}
+
+.item {
+    opacity: 0.6;
+    padding: 10px;
+}
+
+.row-enterprice-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.large {
+    flex-grow: 1;
+}
+
+.right-trial {
+    margin-left: 80px;
+    margin-top: 10px;
+    color: white;
+    background-color: #0061ff;
+    padding: 5px 10px;
+}
+
+
 
