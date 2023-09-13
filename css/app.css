@@ -31,7 +31,8 @@ a {
 .debug .container-statistics,
 .debug .container-all-agency,
 .debug .container-invite,
-.debug .container-questions {
+.debug .container-questions,
+.debug .container-footer {
     border: 1px solid orange;
 }
 
@@ -45,7 +46,8 @@ a {
 .debug .row-statistics,
 .debug .row-agency,
 .debug .row-invite,
-.debug .row-questions {
+.debug .row-questions,
+.debug .row-footer {
     border: 1px solid red;
 }
 
@@ -58,7 +60,8 @@ a {
 .debug .col-12-v,
 .debug .col-4-g,
 .debug .col-4-z,
-.debug .col-6 {
+.debug .col-6,
+.debug .col-5 {
     border: 1px solid blue;
 }
 
@@ -150,10 +153,12 @@ a {
     padding: 2px;
 }
 
-.container-hero {
+.container-hero,
+.container-footer {
     margin: 0 auto;
     max-width: 1200px;
     padding: 2px;
+    min-height: 30px;
 }
 
 .col-12, .col-8, .col-4 {
@@ -533,7 +538,8 @@ a {
     justify-content: center;
 }
 
-.invite {
+.invite,
+.frequent-questions {
     margin-bottom: 60px;
 }
 
@@ -559,4 +565,37 @@ a {
 .right {
     display: flex;
     justify-content: flex-end;
+}
+
+/* Footer */
+
+.page-footer {
+    background-color: black;
+}
+
+.row-footer {
+    padding: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-5 {
+   flex-basis: calc((100% / 12 ) * 2); 
+   min-height: 30px;
+   flex-grow: 1;
+   padding: 20px;
+}
+
+.footer-header {
+    margin-bottom: 20px;
+}
+
+.title-footer-header {
+    color: white;
+}
+
+.footer-body-item {
+    font-size: 13px;
+    padding-bottom: 5px;
+    color: white;
 }
