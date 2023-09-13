@@ -30,7 +30,8 @@ a {
 .debug .container-dropbox-operations,
 .debug .container-statistics,
 .debug .container-all-agency,
-.debug .container-invite {
+.debug .container-invite,
+.debug .container-questions {
     border: 1px solid orange;
 }
 
@@ -43,7 +44,8 @@ a {
 .debug .row-dropbox-operations,
 .debug .row-statistics,
 .debug .row-agency,
-.debug .row-invite {
+.debug .row-invite,
+.debug .row-questions {
     border: 1px solid red;
 }
 
@@ -201,7 +203,8 @@ a {
 .container-partner,
 .container-dropbox-operations,
 .container-statistics,
-.container-invite {
+.container-invite,
+.container-questions {
     margin: 0 auto;
     max-width: 1000px;
     padding: 2px;
@@ -530,3 +533,30 @@ a {
     justify-content: center;
 }
 
+.invite {
+    margin-bottom: 60px;
+}
+
+/*  <!-- Frequent questions --> */
+
+.row-questions {
+    padding: 20px 2px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #999999;
+}
+
+.question {
+    font-size: 13px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
