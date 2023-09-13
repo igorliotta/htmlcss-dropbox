@@ -185,6 +185,7 @@ a {
 
 .trial {
     margin-bottom: 30px;
+    padding: 5px 16px;
 }
 
 .cancel {
@@ -212,6 +213,7 @@ a {
 }
 
 .circle {
+    width: 10px;
     height: 10px;
     color: white;
     background-color: #0061ff;
@@ -452,8 +454,14 @@ a {
     width: 100px;
 }
 
+.agency-img {
+    width: 50%;
+    filter: invert(100%);
+}
+
 .one {
     background-color: #a2d39b;
+    border: 10px solid #d1e9cd;
 }
 
 .two {
